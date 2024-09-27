@@ -1,0 +1,129 @@
+/*Hemos creado la clase cuerpo y le hemos creado un margen y le hemos puesto el color azul claro*/
+.cuerpo {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(194, 240, 243);
+}
+/*Esta es la cabecera que le hemos puesto de color grisacio*/
+.header, .borde {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    bottom: 0;
+    height: 50px;
+    background-color: #898989;
+}
+/*Hemos puesto el titulo en la cabecera y centrado de color blanco*/
+.header, .titulo {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+header .botones {
+    margin: 10px;
+    left: 10px;
+    position: absolute;
+}
+
+header .botones a {
+    border-top: 1px solid #ffffff;
+    background: #4f4f4f;
+    background: -webkit-gradient(linear, left top, left bottom, from(#b0b0b0), to(#4f4f4f));
+    background: -webkit-linear-gradient(top, #b0b0b0, #4f4f4f);
+    background: -moz-linear-gradient(top, #b0b0b0, #4f4f4f);
+    background: -ms-linear-gradient(top, #b0b0b0, #4f4f4f);
+    background: -o-linear-gradient(top, #b0b0b0, #4f4f4f);
+    padding: 12.5px 25px;
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    border-radius: 22px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: #ffffff;
+    font-size: 19px;
+    font-family: Georgia, serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+header .botones a:hover {
+    border-top-color: #b6b7b8;
+   background: #b6b7b8;
+   color: #000000;
+}
+
+header .botones a:active {
+    border-top-color: #b5b5b5;
+    background: #b5b5b5;
+}
+/*Aqui tenemos el subtitulo que tambien estaria centrado*/
+.subtitulo, h2 {
+    margin: 10px;
+    text-align: center;
+}
+/*Desde la clase contenido hasta bloque 3 es todo el contenido incluyendo los titulos de cada parrafo*/
+.contenido {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    align-items: center;
+    
+}
+
+.contenido, .bloque1 {
+    margin: 10px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+.contenido, .subtitulo1{
+    margin: 10px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.contenido, .subtitulo2{
+    margin: 10px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.contenido, .bloque2 {
+    margin: 10px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+.contenido, .subtitulo3{
+    margin: 10px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.contenido, .bloque3 {
+    margin: 10px;
+    padding-right: 20px;
+    text-align: justify;
+}
+/*Aqui hemos puesto la clase footer que le hemos llamado borde 1 este seria el pie de pagina con mi nombre para saber que a sido creado por mi*/
+.footer, .borde1 {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 50px;
+    background-color: #898989;
+}
+.footer, .autor {
+    color: white;
+    text-align: center;    
+}
+
